@@ -1,6 +1,5 @@
 import bcrypt from 'bcryptjs'
 import db from '../models/index'
-import user from '../models/user'
 
 const salt = bcrypt.genSaltSync(10)
 
